@@ -1,0 +1,74 @@
+html,
+body {
+    margin: 0;
+    font-family: roboto;
+}
+
+.aboutme-wrapper {
+    position: relative;
+    display: flex;
+    padding: 3%;
+    
+}
+
+.aboutme-background {
+    position: absolute;
+    z-index: -1;
+    background-color: #0891B2;
+    transform: skewX(25deg) skewY(-12deg) scale(1.5) translateY(-45%);
+    width: 100%;
+    height: 100%;
+}
+
+.aboutme-img-container {
+    position: relative;
+    max-width: 30%;
+    margin-left: 10%;
+}
+
+.aboutme-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutme-img-text {
+    font-size: 40px;
+    position: absolute;
+    left: 15%;
+    bottom: 8px;
+    color: rgb(255, 255, 255);   
+}
+
+.aboutme-text-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 20px;
+    margin-right: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aboutme-text-header {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.aboutme-text-body {
+    font-size: 20px;
+}
+
+.aboutme-icon-row {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.aboutme-icon {
+    width: 25px;
+}
